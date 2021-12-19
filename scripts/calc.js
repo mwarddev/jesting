@@ -1,6 +1,6 @@
-function addition() {
+function addition(num1, num2) {
 
-    return 42;
+    return num1 + num2;
 }
 
 module.exports = addition;
