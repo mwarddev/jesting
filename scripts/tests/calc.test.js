@@ -2,9 +2,6 @@
  * @jest-environment jsdom
  */
 
-const {
-    TestWatcher
-} = require("jest");
 const addition = require("../calc");
 
 describe("Calculator", () => {
